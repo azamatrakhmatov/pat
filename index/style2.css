@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('/imagee/qiuz.png'); 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.container, .container2 {
+  background: rgba(0, 0, 0, 0.7);  
+  border-radius: 10px;  
+  padding: 20px;
+  margin: 50px auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #ff5722;  
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e64a19;  
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
