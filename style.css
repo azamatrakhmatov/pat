@@ -1,0 +1,70 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(101, 172, 247);
+    margin: 0; /* Marginni 0 ga o'rnating */
+    padding: 20px; /* Paddingni qo'shish */
+    
+}
+
+.quiz-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.incorrect {
+    background-color: red;
+    color: white;
+}
+
+img {
+    width: 100%; /* Rasm kengligini 100% ga o'zgartiring */
+    max-width: 190px; /* Maksimal kenglikni belgilang */
+    height: auto; /* Biologik balandlikni muvofiqlashtirish */
+}
+
+button {
+    display: inline-block;
+    margin: 10px; /* Har bir button o'rtasida bo'sh joy */
+    padding: 10px 20px; /* Button ichidagi matn uchun bo'sh joy */
+    border: none; /* Chegarani olib tashlash */
+    border-radius: 12px; /* Chegara radiusi */
+    background-color: #b8db98; /* Buttonning rangini o'zgartirish */
+    color: rgb(98, 3, 3); /* Matn rangi */
+    font-size: 16px; /* Matn o'lchami */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Matn soyasi */
+    cursor: pointer; /* Kursorni belgilash */
+    transition: background-color 0.3s; /* Hover effekt uchun o'tish 
+    */
+    font-weight: bold;
+   
+}
+
+button:hover {
+    background-color: #a9aea9; /* Hoverda rang o'zgarishi */
+    
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Mobil qurilmalarda paddingni kamaytirish */
+    }
+    
+    button {
+        font-size: 14px; /* Mobil telefonlar uchun kichikroq matn o'lchami */
+        padding: 8px 16px; /* Kichikroq bo'shliq */
+    }
+    
+    img {
+        max-width: 100%; /* Rasmning kengligini to'liq moslashtirish */
+        height: auto; /* Rasm o'lchovini avtomatik sozlash */
+    }
+}
+
+
